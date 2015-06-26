@@ -53,6 +53,56 @@ body {
      margin:0px;
 }
 
+header {
+     background-color: black;
+     width: 100%;
+     border-bottom: 5px solid yellow;
+}
+
+h1 {
+     font-size: 2em;
+     font-weight: bold;
+     font-family: Georgia;
+     color: yellow;
+     padding: 1%;
+}
+
+li {
+     color: white;
+     font-size: 1.5em;
+     display:inline-block;
+     text-align: right;
+     padding: 0 1% 1% 1%;
+}
+
+li.impact {
+     color: white;
+     font-family: Impact;
+     text-transform: uppercase;
+}
+
+h2 {
+     font-size: 1.5em;
+     font-family: georgia;
+     background-color: #E8E8E8;
+     color: black;
+     font-style: italic;
+     font-weight: bold;
+     text-align: center;
+     padding:1%;
+}
+
+span.strikethrough {
+     color: #A9A9A9;
+     text-decoration: line-through;
+}
+
+span.underline {
+     border-bottom: 5px solid yellow;
+}
+
+p.seethru {}
+
 /******************************************
 /* LAYOUT                   
 /*******************************************/
