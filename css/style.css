@@ -105,7 +105,7 @@ span.underline {
      border-bottom: 5px solid yellow;
 }
 
-section.seethru {
+div.seethru {
      border: 1px solid black;
      background: url(../images/coworking.jpg) center center no-repeat;
      background-size: cover;
@@ -114,7 +114,7 @@ section.seethru {
      padding: 3%;
 }
 
-.seethru div {
+.seethru section {
      width: 75%;
      float: right;
      border: 1px solid black;
@@ -124,16 +124,16 @@ section.seethru {
      padding: 3%;
 } 
 
-.seethru div h3 {
+.seethru section h3 {
      font-weight: bold;
      font-size: 2em;
 }
 
-.seethru div p {
+.seethru section p {
      font-size: 1.3em;
 }
 
-.seethru div a{
+.seethru section a{
      text-decoration: none;
      text-transform: uppercase;
      background-color: yellow;
@@ -147,11 +147,11 @@ section.seethru {
      border-radius: 10px;
 }
 
-section.under {
+div.under {
      margin: 3%;
 }
 
-section.under div h3 {
+div.under section h3 {
      font-family: georgia;
      color: black;
      font-size: 1.8em;
@@ -159,13 +159,14 @@ section.under div h3 {
      text-align: left;
 }
 
-section.under div p {
+div.under section p {
      font-size: 1.5em;
      text-align: left;
      padding-bottom: 3%;
 }
 
-section.under div a {
+
+div.under section a {
      text-decoration: none;
      text-transform: uppercase;
      background-color: #E8E8E8;
