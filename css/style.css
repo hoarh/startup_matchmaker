@@ -67,6 +67,10 @@ h1 {
      padding: 1%;
 }
 
+ul {
+     display: none;
+}
+
 li {
      color: white;
      font-size: 1.5em;
@@ -117,7 +121,7 @@ section.seethru {
      background-color: #E8E8E8;
      box-shadow-bottom: 5px black;
      opacity: 0.4;
-     padding: 5%;
+     padding: 3%;
 } 
 
 .seethru div h3 {
@@ -133,19 +137,48 @@ section.seethru {
      text-decoration: none;
      text-transform: uppercase;
      background-color: yellow;
-     font-size: 1.8em;
+     font-size: 1.3em;
      font-family: impact;
      font-weight: bold;
      color: black;
      text-align: center;
      padding: 2%;
      margin-left: 30%;
+     border-radius: 10px;
 }
 
 section.under {
-     width: 100%;
-
+     margin: 3%;
 }
+
+section.under div h3 {
+     font-family: georgia;
+     color: black;
+     font-size: 1.8em;
+     font-weight: bold;
+     text-align: left;
+}
+
+section.under div p {
+     font-size: 1.5em;
+     text-align: left;
+     padding-bottom: 3%;
+}
+
+section.under div a {
+     text-decoration: none;
+     text-transform: uppercase;
+     background-color: #E8E8E8;
+     font-size: 1.3em;
+     font-family: impact;
+     font-weight: bold;
+     color: black;
+     text-align: center;
+     padding: 2%;
+     width: 100%;
+     border-radius: 10px;
+}
+
 
 /******************************************
 /* LAYOUT                   
