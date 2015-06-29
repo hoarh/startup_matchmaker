@@ -180,8 +180,15 @@ div.under section a {
      border-radius: 10px;
 }
 
+@media only screen and (mind-width: 768px)
 
+.under {
+     float: left;
+}
 
+footer {
+     clear:both;
+}
 /******************************************
 /* LAYOUT                   
 /*******************************************/
