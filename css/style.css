@@ -147,6 +147,10 @@ div.seethru {
      border-radius: 10px;
 }
 
+.ybutton {
+     
+}
+
 div.under {
      margin: 3%;
 }
@@ -180,15 +184,23 @@ div.under section a {
      border-radius: 10px;
 }
 
-@media only screen and (mind-width: 768px)
+@media only screen and (min-width: 768px) {
+ul {
+     display: inline;
+     margin-left: 30%
+}
 
 .under {
      float: left;
+     width: 25%;
 }
 
 footer {
      clear:both;
+
 }
+}
+
 /******************************************
 /* LAYOUT                   
 /*******************************************/
