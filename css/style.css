@@ -87,7 +87,7 @@ li.impact {
 }
 
 .hamburger {
-     display: inline-block;
+     float: right;
      position: relative;
      overflow: hidden;
      margin: 0;
@@ -101,6 +101,7 @@ li.impact {
      border-radius: none;
      border: none;
      cursor: pointer;
+     background-color: black;
 }
 
 .hamburger:focus {
@@ -235,7 +236,7 @@ ul {
      margin-left: 30%
 }
 
-button {
+.hamburger {
      display: none;
 }
 
